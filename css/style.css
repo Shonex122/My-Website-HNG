@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+.main-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-header h1 {
+  color: #a5b452;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.main-header p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.main-goal {
+  width: 100%;
+  padding: 20px;
+  /* text-align: center; */
+}
+
+.main-goal h2 {
+  text-align: center;
+  color: #a5b452;
+  padding-bottom: 20px;
+}
+
+.main-goal p {
+  line-height: 22px;
+  font-size: 22px;
+  /* font-weight: 500; */
+}
+
+.main-link-text {
+  margin: 15px;
+}
+
+.main-link ul li {
+  padding: 10px;
+}
+
+.main-link a {
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #a5b452;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #a5b452;
+  font-weight: bold;
+}
+
+.main-link a:hover {
+  color: #fff;
+  background-color: #a5b452;
+}
+
+.main-link-text p {
+  font-size: 18px;
+  border: 1px solid #a5b452;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.main-link h1 {
+  text-align: center;
+  color: #a5b452;
+}
+
+footer {
+  text-align: center;
+  background-color: beige;
+  height: 50px;
+  color: #a5b452;
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  header,
+  main {
+    padding: 10px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    border: 5px solid #a5b452;
+  }
+}
